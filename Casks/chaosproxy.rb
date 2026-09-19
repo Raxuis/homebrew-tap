@@ -6,25 +6,25 @@ cask "chaosproxy" do
     end
   end
 
-  version "0.1.1"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "4e1bc79ed2c87318cd9eb6c88313c7ddd29558b3195d41966c425870886ad4dd"
+      sha256 "178e4d30e60580377c867d6c079d9ac5b61fcfc3be6050b493e2e731cd48cfbb"
       url "https://github.com/Raxuis/ChaosProxy/releases/download/v#{version}/chaosproxy_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1eba43135fe51471cc65f5a7e7412746cb68db97439380c5ccd75eae1cd30eed"
+      sha256 "3f6c5df871fa0caa5c3dc4d9e3644fa7c70d0e94d2016fb82dae7e109c2a0daa"
       url "https://github.com/Raxuis/ChaosProxy/releases/download/v#{version}/chaosproxy_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a4572a239fe76a56bc0e6b775e04f33c27da1dc9263fed8535fa73b41700ce47"
+      sha256 "acc5e4e1d40ceba679e13e0d93601c97cf438b0c2d52289a7b15e10f79935277"
       url "https://github.com/Raxuis/ChaosProxy/releases/download/v#{version}/chaosproxy_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a2f8f7ce631ec6ba2f54573c6c54ffd8f8f8e9046dec56043254c66b69e60150"
+      sha256 "0c35c15b2a7a8bc2572ac4da2da226cccb9a071316d29ab4ddc41701724d3c59"
       url "https://github.com/Raxuis/ChaosProxy/releases/download/v#{version}/chaosproxy_#{version}_linux_amd64.tar.gz"
     end
   end
